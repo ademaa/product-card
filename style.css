@@ -1,0 +1,210 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(30, 38%, 92%);
+    text-transform: capitalize;
+}
+.main-box{
+    width: 40%;
+    position: absolute;
+    transform: translateX(-50px) translateY(-50px);
+    top: 25%;
+    left: 35%;
+}
+.main-img{
+    width: 50%;
+    height: 100%;
+}
+.img-per{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.main-text{
+    position: absolute;
+    width: 50%;
+    top: 0;
+    right: 0;
+    background-color: hsl(0, 0%, 100%);
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    height: 100%;
+}
+.text-box{
+    padding: 5px 22px;
+    line-height: 1.2;
+}
+.product-title{
+    padding-bottom: 20px;
+    line-height: 1.9;
+    font-weight: 500;
+    letter-spacing: 3px;
+    color: hsl(228, 12%, 48%);
+}
+.heading-text{
+    font-size: 26px;
+    font-family: 'Fraunces', serif;
+    padding-bottom:30px;
+    font-weight: 700;
+}
+.sub-heading{
+    padding-bottom: 30px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 12px;
+    line-height: 1.5;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+}
+.price{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    padding-bottom: 25px;
+    font-size: 28px;
+    color: hsl(158, 36%, 37%);
+}
+.sale-price{
+    font-size: 12px;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+    padding-left: 13px;
+    position: relative;
+    top:-4px;
+}
+.green-btn{
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border:0;
+    margin: auto;
+    font-size: 14px;
+}
+.cart{
+    position: relative;
+    top: 3px;
+    padding-right: 5px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+@media screen and (max-width: 1175px){
+    .text-box{
+        padding: 5px 10px;
+    }
+    .product-title{
+        padding-bottom: 10px;
+    }
+    .heading-text{
+        font-size: 20px;
+        padding-bottom:30px;
+    }
+    .sub-heading{
+        padding-bottom: 10px;
+        font-size: 12px;
+        line-height: 1.2;
+    }
+    .price{
+        padding-bottom: 20px;
+        font-size: 16px;
+    }
+    .sale-price{
+        font-size: 10px;
+    }
+    .green-btn{
+        padding: 5px;
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 700px){
+    .text-box{
+        padding: 3px 5px;
+    }
+    .product-title{
+        padding-bottom: 5px;
+    }
+    .heading-text{
+        font-size: 20px;
+        padding-bottom:15px;
+    }
+    .sub-heading{
+        padding-bottom: 5px;
+        font-size: 12px;
+        line-height: 1.2;
+    }
+    .price{
+        padding-bottom: 10px;
+        font-size: 16px;
+    }
+    .sale-price{
+        font-size: 10px;
+    }
+    .green-btn{
+        padding: 5px;
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 1000px){
+    .text-box{
+        padding: 3px 5px;
+    }
+    .product-title{
+        padding-bottom: 5px;
+    }
+    .heading-text{
+        font-size: 20px;
+        padding-bottom:15px;
+    }
+    .sub-heading{
+        padding-bottom: 5px;
+        font-size: 12px;
+        line-height: 1.2;
+    }
+    .price{
+        padding-bottom: 10px;
+        font-size: 16px;
+    }
+    .sale-price{
+        font-size: 10px;
+    }
+    .green-btn{
+        padding: 5px;
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 800px){
+    .main-box{
+        width: 80%;
+        position: absolute;
+        transform: translateX(-50px) translateY(-50px);
+        top: 20%;
+        left: 20%;
+    }
+    .main-img{
+        width: 100%;
+        height: 400px;
+    }
+    .img-per{
+        width: 100%;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+    .main-text{
+        position: static;
+        width: 100%;
+        border-bottom-right-radius: 8px;
+        border-bottom-left-radius: 8px;
+        height: 100%;
+    }
+}
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
